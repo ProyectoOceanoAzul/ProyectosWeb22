@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+
+<!-- <!DOCTYPE html>    indicamos al navegaor q estamos trabajando con la ultima version de html5  -->
+
+<html lang="es">
+
+<!-- head   : van los metadatos informaocion q indiucamos al navegador para q identifique de forma correcta la pagian web -->
+
+<head>
+
+    <!-- html lang="es">    indica en q idioma esta escrinto el docuimento html -->
+
+    <!-- indicamos al navegador q tenbemos vocales con tilde -->
+    <!-- Lea codigo ASCII-->
+    <meta charset="UTF-8">
+
+    <!-- Para q el visitio web sea adaptable a cualquier dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- contniendio de la pagina web -->
+    <meta name="description" content="Esta es mi primera pagina web">
+
+    <!-- para el motor de busquedad busque mi pagina / escanear-->
+    <meta name="robots" content="index, follow">
+
+    <!-- palabras claves para encontrar mi pagina web -->
+    <meta name="keywords" content="pagina, website, sitio web, mi primera">
+
+    <!-- Nombre de nuestra página -->
+    <meta name="copyright" content="Copyright © MiWeb.com">
+
+    <!-- Indicarle al autor de quien ha creado la pagina web -->
+    <meta name="Author" Lang="es" content="Gerson N">
+
+
+
+    <!-- para q la pagina se recargue cada 10 segundos de acuerdo al contenido 
+    <meta http-equiv="refresh" content="10" />
+    -->
+
+
+    <!-- 
+    observacion : para q despues de 5 segundos se recargue otra pogina web 
+
+    <meta http-equiv="refresh" content="5; url=https://www.youtube.com/@geronelo1435" />    
+    -->
+
+
+    <!-- normalize : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+
+    <!-- estilos css : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+
+
+
+    <!-- icono en la pagina web : para importar iconos -->
+    <link rel="shortcut icon" href="./imagenes/icon.png" type="image/x-icon">
+
+    <!-- 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    -->
+
+    <!-- enlace para icnos de fontawesome -->
+    <script src="https://kit.fontawesome.com/2ad58faca7.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- 
+    colocar un nombre referido a lo q contiene el documento html  y se mostrara en una pestaña -->
+    <title>Maquetacion</title>
+
+</head>
+
+
+<body>
+
+    <!-- contenedor__header -->
+    <header class="contenedor__header" id="Home">
+
+        <!-- contenedor__superior -->
+        <nav class="contenedor__superior">
+
+            <div class="contenedor">
+
+                <!-- logo -->
+                <div class="superior__logo">
+                    <h1 class="logo__titulo">Heike</h1>
+                </div>
+
+                <!-- menu -->
+                <div class="superior__menu">
+                    <ul class="menu__opciones">
+                        <li><a href="index.html">Heim</a></li>
+                        <li><a href="#Features">Merkmale</a></li>
+                        <li><a href="#About">Verwiesen</a></li>
+                        <li><a href="#Contact">Kontakt</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </nav>
+
+
+    </header>
+
+    <!-- contenedor__banner -->
+    <section class="contenedor__banner" id="Contact">
+
+        <div class="contenedor">
+
+
+            <!-- banner__titulo -->
+            <div class="banner__lado1">
+
+                <h2>
+                    Registrieren Sie sich noch heute
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nemo in harum sapiente voluptatibus.
+                    Aliquam doloremque magnam sapiente voluptas fuga doloribus nihil omnis, distinctio dicta?
+                </p>
+
+            </div>
+
+
+
+            <div class="banner__lado2">
+
+                <h3>
+                    Füllen Sie das untenstehende Formular aus, um sofortigen Zugang zu erhalten!
+                </h3>
+
+
+                <form action="#">
+                    <div class="form__group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" required="Yes" class="form__control">
+                    </div>
+
+
+                    <div class="form__group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required="Yes" class="form__control">
+                    </div>
+
+
+
+                    <button>Crea una Cuenta</button>
+
+                </form>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-- contenedor__features -->
+    <section class="contenedor__features" id="Features">
+        <div class="contenedor">
+
+            <h4>
+                Merkmale
+            </h4>
+
+            <div class="fila1">
+                <div class="fila1__lado1">
+                    <img src="./imagenes/feature-1.jpg" alt="feature-1" title="feature-1">
+                </div>
+
+                <div class="fila1__lado2">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis facere asperiores quaerat ullam
+                        adipisci ducimus dolorum, libero, eum quod ex eaque, qui et accusamus voluptatibus. Expedita ad
+                        quas sapiente maiores vitae cupiditate dolorem velit, sint rerum aut ipsam debitis veniam fugiat
+                        eligendi, molestias minus ipsa magnam veritatis magni nesciunt nobis voluptate! Itaque quibusdam
+                        hic eum voluptatum deserunt quasi laudantium modi dolore soluta dolorum tempora, alias qui omnis
+                        blanditiis odio labore sint fugit repellendus delectus molestiae quod! Architecto, similique
+                        distinctio animi atque aut reprehenderit sunt totam odit provident quisquam eos quam cumque
+                        aspernatur ea hic velit praesentium ex itaque odio. Repellat?
+                    </p>
+
+                    <p class="resaltar">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, temporibus itaque porro
+                        suscipit velit cum non perferendis nobis odit, dolorem impedit assumenda, odio nulla illo id?
+                        Dolorum sunt fugit est!
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="fila2">
+                <div class="fila2__lado1">
+                    <img src="./imagenes/feature-2.jpg" alt="feature-2" title="feature-2">
+                </div>
+
+                <div class="fila2__lado2">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis facere asperiores quaerat ullam
+                        adipisci ducimus dolorum, libero, eum quod ex eaque, qui et accusamus voluptatibus. Expedita ad
+                        quas sapiente maiores vitae cupiditate dolorem velit, sint rerum aut ipsam debitis veniam fugiat
+                        eligendi, molestias minus ipsa magnam veritatis magni nesciunt nobis voluptate! Itaque quibusdam
+                        hic eum voluptatum deserunt quasi laudantium modi dolore soluta dolorum tempora, alias qui omnis
+                        blanditiis odio labore sint fugit repellendus delectus molestiae quod! Architecto, similique
+                        distinctio animi atque aut reprehenderit sunt totam odit provident quisquam eos quam cumque
+                        aspernatur ea hic velit praesentium ex itaque odio. Repellat?
+                    </p>
+
+                    <p class="resaltar">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, temporibus itaque porro
+                        suscipit velit cum non perferendis nobis odit, dolorem impedit assumenda, odio nulla illo id?
+                        Dolorum sunt fugit est!
+                    </p>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <section class="contenedor__registre">
+        <div class="contenedor">
+
+            <div class="lado1">
+                <p>
+                    Melden Sie sich noch heute an!
+                </p>
+
+            </div>
+
+
+            <div class="lado2">
+                <a href="#">
+                    Bitte registrieren Sie sich
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <section class="contenedor__about" id="About">
+        <div class="contenedor">
+
+            <h4>
+                Verwiesen
+            </h4>
+
+
+
+            <div class="about__fila1">
+                <div class="afila1__lado1">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt omnis iusto consectetur. Aut,
+                        maxime. Incidunt odio labore deleniti soluta amet illum, libero necessitatibus omnis dolorum a
+                        nemo
+                        quis ipsam nam reiciendis iure sit, placeat nihil. Beatae modi deserunt assumenda debitis ipsum
+                        dolorem, at reprehenderit tempore, doloribus minus et, voluptatem deleniti dolores laboriosam
+                        itaque
+                        aliquid earum blanditiis. Magnam blanditiis est molestias deleniti doloremque similique quidem
+                        quisquam facere fugiat. A, accusamus? Aliquam, mollitia at quisquam beatae fugit explicabo
+                        laborum
+                        ex blanditiis, facilis id libero, molestiae commodi qui ab rerum pariatur. Voluptas quis
+                        excepturi
+                        ipsam sed minima voluptatum tempore libero quam at, est, corrupti non sint iste fuga! Placeat
+                        ex,
+                        ducimus, cumque atque excepturi saepe unde provident ab beatae, commodi odio obcaecati at?
+                    </p>
+
+                    <p class="resaltar">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt rerum veniam repellat
+                        sapiente
+                        sed hic magnam unde consequatur amet labore quod pariatur sit asperiores eaque id dolorum neque
+                        facere, quaerat architecto eligendi explicabo a? Vero ut, repellat a placeat excepturi
+                        necessitatibus. Debitis fugit consequuntur odit nam atque facere esse reiciendis.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="about__fila2">
+                <div class="afila2__lado1">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex fugiat distinctio sequi
+                        molestiae magnam repudiandae voluptatem dolores quasi assumenda accusamus aut dicta
+                        exercitationem, repellat veritatis ea commodi quae officia ullam alias sit quia ut dolore
+                        voluptates. Cumque eligendi incidunt ullam esse ipsum officiis consequatur, natus consectetur a,
+                        temporibus quas delectus magnam placeat alias? Cumque modi iure harum corporis quos!
+                    </p>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, at fugiat id ipsa rerum laborum,
+                        explicabo est odio
+                        blanditiis quis natus ratione voluptate velit ipsam hic pariatur eos perferendis accusamus
+                        earum! Odio earum autem,
+                        officia, expedita ea eum numquam praesentium quia unde nisi magni reiciendis aperiam incidunt
+                        ab! Atque quae enim
+                        temporibus, consectetur autem cum officiis reprehenderit fugiat nam aut.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- pie -->
+    <footer class="contenedor__footer">
+        <div class="contenedor">
+
+            <div class="pie__titulo">
+                <p>
+                    &copy;2024, Rechte Vorbehalten, Entworfen von
+                    <span class="autor">93R50N</span>
+
+                    <br>
+                    Jeder noch so kleine Beitrag kann das Leben eines Menschen verändern. Spende:
+                    <span class="donacion">
+                        <a href="https://wa.link/5nawh3"> Plin o Yape</a>
+                    </span>
+                </p>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+
+
+
+</html>
